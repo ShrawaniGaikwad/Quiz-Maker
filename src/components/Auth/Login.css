@@ -1,0 +1,32 @@
+.wrapper{
+    margin-top: 15%;
+    width:300px;
+    height: 300px;
+    background:#b0ddff;
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+    transition: box-shadow 0.3s ease; 
+  }
+
+  .outer{
+    position: relative;
+    margin-top: 5%;
+    background-color: #67bdff;
+    width: 500px;
+    display: flex;
+    height: 500px;
+    flex-direction: row-reverse;
+    border-radius: 12px;
+    justify-content: center;
+  }
+
+  @media (max-width: 550px) {
+    .outer{
+      max-width: 400px;
+    }
+    .wrapper{
+      max-width: 200px;
+    }
+
+  }

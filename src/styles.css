@@ -1,0 +1,37 @@
+body{
+    background-color: #0d2136;
+    text-align: center;
+    color:#d3e3fd ;
+    padding: 2px;
+}
+nav {
+    background-color: #0d2136;
+    padding: 5px;
+    border:2px solid #d3e3fd;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0;
+    font-size: 20px;
+
+  }
+  
+  nav ul li a {
+    color: #d3e3fd;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  

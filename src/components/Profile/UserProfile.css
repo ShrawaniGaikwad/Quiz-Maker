@@ -1,0 +1,20 @@
+.outer4{
+    position: relative;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: #402b73;
+    width: 600px;
+    height: auto;
+    border-radius: 6%;
+    border: 1px solid #d3e3fd;
+    flex-direction: row-reverse;
+    /* border-radius: 12px; */
+    justify-content: center;
+  }
+
+  @media (max-width: 550px) {
+    .outer4{
+      max-width: 400px;
+    }
+  }
+

@@ -1,0 +1,47 @@
+.card4 {
+    position: relative;
+    border: #163357  1px solid;
+    /* border-radius: 4%; */
+    width: 500px;
+    height: auto;
+    background-color: #33186c; 
+    padding: 30px; 
+    box-shadow: 15px 10px 10px rgba(56, 56, 56, 0.1);
+    overflow-x: auto;
+    margin:0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .mycontainer{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+  }
+  
+  .myimage{
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+  .textfield{
+    width: 400px;
+  }
+  @media (max-width: 1130px) {
+    .mycontainer {
+      order: 2;
+    }
+    .myimage {
+      order: 1;
+      margin-top: 50px;
+      margin-bottom: 0px;
+    }
+  }
+  @media (max-width: 550px) {
+    .card4{
+      max-width: 65%;
+    }
+    .textfield{
+      width: 200px;
+    }
+
+  }

@@ -1,0 +1,45 @@
+.card {
+    position: relative;
+    border: #163357  1px solid;
+    border-radius: 4%;
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    background-color: #476282; 
+    padding: 30px; 
+    box-shadow: 15px 10px 10px rgba(56, 56, 56, 0.1);
+    /* overflow-x: auto; */
+    margin:0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 15px 15px 20px rgba(56, 56, 56, 0.2);
+  }
+  .card h4{
+    margin: 0;
+}
+  .container{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .card h4 link{
+    color: #d3e3fd;
+  }
+
+  .card li a:hover {
+    color: #031633;
+  }
+  .card  li a {
+    color: #d3e3fd;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+    list-style: none;
+  }

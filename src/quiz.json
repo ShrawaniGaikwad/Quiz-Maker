@@ -1,0 +1,35 @@
+{
+    "_id": {
+      "$oid": "6683b850b388f3a4e492298b"
+    },
+    "title": "General Knowledge Quiz",
+    "questions": [
+      {
+        "question": "What is the capital of France?",
+        "options": ["Berlin", "Madrid", "Paris", "Rome"],
+        "correctAnswer": "Paris"
+      },
+      {
+        "question": "Who wrote 'Hamlet'?",
+        "options": ["Charles Dickens", "William Shakespeare", "J.K. Rowling", "Mark Twain"],
+        "correctAnswer": "William Shakespeare"
+      },
+      {
+        "question": "What is the smallest planet in our solar system?",
+        "options": ["Earth", "Mars", "Mercury", "Venus"],
+        "correctAnswer": "Mercury"
+      },
+      {
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+        "correctAnswer": "Leonardo da Vinci"
+      },
+      {
+        "question": "Which element has the chemical symbol 'O'?",
+        "options": ["Oxygen", "Gold", "Silver", "Hydrogen"],
+        "correctAnswer": "Oxygen"
+      }
+    ],
+    "id": "some_unique_id"
+  }
+  
